@@ -1,0 +1,26 @@
+.Movie {
+    grid-column: auto;
+    place-self: center;
+    background-color: var(--light);
+    box-shadow: 0 0 2px grey;
+    height: 500px;
+    width: 100%;
+}
+
+.Movie h2 {
+    font-size: 24pt;
+    color:darkslategray;
+    text-align: center;
+}
+
+.Movie p {
+    padding:16px;
+}
+
+.Movie img {
+    background-color: grey;
+    display: inline-block;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}

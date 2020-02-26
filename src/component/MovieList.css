@@ -1,0 +1,9 @@
+.MovieList {
+    --gap: 16px;
+    --nb-card:3;
+    padding: var(--gap);
+    display: grid;
+    gap: var(--gap);
+    grid-template-columns: repeat(var(--nb-card), calc((100% - (var(--nb-card)) * var(--gap)) / var(--nb-card)));
+    grid-auto-rows: auto;
+}

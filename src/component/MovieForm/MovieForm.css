@@ -1,0 +1,15 @@
+.MovieForm {
+    background-color: var(--light);
+    padding: 32px;
+    margin-top: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.MovieForm input, .MovieForm textarea {
+    width: 100%;
+}
+
+.MovieForm label {
+    margin-top: 16px;
+}
